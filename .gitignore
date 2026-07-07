@@ -1,2 +1,7 @@
 venv
 .env
+
+username = "sahiljal751_db_user"
+password = quote_plus("sahiljal%8094")
+
+uri = f"mongodb+srv://{username}:{password}@cluster0.9eobqtg.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
